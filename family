@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Family Tree</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Family Tree</h1>
+  <div class="tree">
+    <div class="family-member" onclick="showDetails('anthony')">
+      <p>Anthony Fiore</p>
+      <div class="details" id="anthony">
+        <p>Born: June 20, 1989, Brooklyn, New York</p>
+        <p>Parents: Stephen Fiore and Dina Richerme</p>
+        <p>Siblings: Lauren Fiore</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('lauren')">
+      <p>Lauren Fiore</p>
+      <div class="details" id="lauren">
+        <p>Born: September 29, 1994, Brooklyn, New York</p>
+        <p>Parents: Stephen Fiore and Dina Richerme</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('stephen')">
+      <p>Stephen Fiore</p>
+      <div class="details" id="stephen">
+        <p>Born: October 19, 1963, Brooklyn, New York</p>
+        <p>Parents: Anthony J. Fiore Jr. and Margaret Finamore</p>
+        <p>Sibling: Kevin Fiore</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('kevin')">
+      <p>Kevin Fiore</p>
+      <div class="details" id="kevin">
+        <p>Born: March 10, 1959, Brooklyn, New York</p>
+        <p>Parents: Anthony J. Fiore Jr. and Margaret Finamore</p>
+        <p>Spouse: Catherine Lynch</p>
+        <p>Children: Joseph Fiore, Matthew Fiore, Andrew Fiore, Christopher Fiore</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('catherine')">
+      <p>Catherine Lynch</p>
+      <div class="details" id="catherine">
+        <p>Born: October 10, 1961, Brooklyn, New York</p>
+        <p>Spouse: Kevin Fiore</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('joseph')">
+      <p>Joseph Fiore</p>
+      <div class="details" id="joseph">
+        <p>Born: July 18, 1986, Brooklyn, New York</p>
+        <p>Parents: Kevin Fiore and Catherine Lynch</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('matthew')">
+      <p>Matthew Fiore</p>
+      <div class="details" id="matthew">
+        <p>Born: October 12, 1989, Brooklyn, New York</p>
+        <p>Parents: Kevin Fiore and Catherine Lynch</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('andrew')">
+      <p>Andrew Fiore</p>
+      <div class="details" id="andrew">
+        <p>Born: August 22, 1991, Brooklyn, New York</p>
+        <p>Parents: Kevin Fiore and Catherine Lynch</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('christopher')">
+      <p>Christopher Fiore</p>
+      <div class="details" id="christopher">
+        <p>Born: June 24, 1994, Brooklyn, New York</p>
+        <p>Parents: Kevin Fiore and Catherine Lynch</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('dina')">
+      <p>Dina Richerme</p>
+      <div class="details" id="dina">
+        <p>Born: January 22, 1965, Brooklyn, New York</p>
+        <p>Parents: Joseph Richerme and Carmela Ungaro</p>
+        <p>Siblings: Fulvio Richerme, Frank Richerme, Anne Marie Richerme, Cecilia Regina Richerme</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('antonio')">
+      <p>Antonio Fiore</p>
+      <div class="details" id="antonio">
+        <p>Born: August 1, 1898, Angri, Italy</p>
+        <p>Died: October 15, 1974, Brooklyn, New York</p>
+        <p>Spouse: Josephine Desiderio</p>
+        <p>Parents: Luigi Fiore and Annunziata Ruggerio</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('josephine')">
+      <p>Josephine Desiderio</p>
+      <div class="details" id="josephine">
+        <p>Born: July 7, 1902, Torrebruna, Italy</p>
+        <p>Died: July 1, 1989, Brooklyn, New York</p>
+        <p>Spouse: Antonio Fiore</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('anthony_jr')">
+      <p>Anthony J. Fiore Jr.</p>
+      <div class="details" id="anthony_jr">
+        <p>Born: February 19, 1932, Brooklyn, New York</p>
+        <p>Died: June 15, 1997, Staten Island, New York</p>
+        <p>Parents: Antonio Fiore and Josephine Desiderio</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('luigi')">
+      <p>Luigi Fiore</p>
+      <div class="details" id="luigi">
+        <p>Born: May 6, 1869, Angri, Italy</p>
+        <p>Died: March 16, 1946, Brooklyn, New York</p>
+        <p>Spouse: Annunziata Ruggerio</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('annunziata')">
+      <p>Annunziata Ruggerio</p>
+      <div class="details" id="annunziata">
+        <p>Born: March 25, 1870, Angri, Italy</p>
+        <p>Died: January 24, 1946, Brooklyn, New York</p>
+        <p>Spouse: Luigi Fiore</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('joseph')">
+      <p>Joseph Richerme</p>
+      <div class="details" id="joseph">
+        <p>Born: August 1, 1935, Brooklyn, New York</p>
+        <p>Died: January 27, 2023, Staten Island, New York</p>
+        <p>Spouse: Carmela Ungaro</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('carmela')">
+      <p>Carmela Ungaro</p>
+      <div class="details" id="carmela">
+        <p>Born: May 22, 1940, Brooklyn, New York</p>
+        <p>Died: October 8, 2018, Staten Island, New York</p>
+        <p>Spouse: Joseph Richerme</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('fulvio')">
+      <p>Fulvio Richerme</p>
+      <div class="details" id="fulvio">
+        <p>Born: July 31, 1960, Brooklyn, New York</p>
+        <p>Parents: Joseph Richerme and Carmela Ungaro</p>
+        <p>Spouse: Roseann M DeLuise</p>
+        <p>Child: Joseph Vincent Richerme</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('frank')">
+      <p>Frank Richerme</p>
+      <div class="details" id="frank">
+        <p>Born: November 19, 1970, Brooklyn, New York</p>
+        <p>Parents: Joseph Richerme and Carmela Ungaro</p>
+        <p>Partner: Sandra Torres</p>
+        <p>Child: Luciano Richerme</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('anne_marie')">
+      <p>Anne Marie Richerme</p>
+      <div class="details" id="anne_marie">
+        <p>Born: November 10, 1962, Brooklyn, New York</p>
+        <p>Parents: Joseph Richerme and Carmela Ungaro</p>
+        <p>Spouse: John Fassari</p>
+        <p>Children: Gina Fassari, Domenica Ann Fassari, Salvatore Fassari</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('cecilia')">
+      <p>Cecilia Regina Richerme</p>
+      <div class="details" id="cecilia">
+        <p>Born: August 19, 1959</p>
+        <p>Died: December 19, 1982, Staten Island, New York</p>
+        <p>Parents: Joseph Richerme and Carmela Ungaro</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('gina')">
+      <p>Gina Fassari</p>
+      <div class="details" id="gina">
+        <p>Born: September 24, 1989, Brooklyn, New York</p>
+        <p>Parents: Anne Marie Richerme and John Fassari</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('domenica')">
+      <p>Domenica Ann Fassari</p>
+      <div class="details" id="domenica">
+        <p>Born: December 10, 1990, Brooklyn, New York</p>
+        <p>Parents: Anne Marie Richerme and John Fassari</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('salvatore')">
+      <p>Salvatore Fassari</p>
+      <div class="details" id="salvatore">
+        <p>Born: July 15, 1993, Brooklyn, New York</p>
+        <p>Parents: Anne Marie Richerme and John Fassari</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('joseph_vincent')">
+      <p>Joseph Vincent Richerme</p>
+      <div class="details" id="joseph_vincent">
+        <p>Born: August 2, 1995, Brooklyn, New York</p>
+        <p>Parents: Fulvio Richerme and Roseann M DeLuise</p>
+      </div>
+    </div>
+
+    <div class="family-member" onclick="showDetails('luciano')">
+      <p>Luciano Richerme</p>
+      <div class="details" id="luciano">
+        <p>Born: December 17, 2017, Brooklyn, New York</p>
+        <p>Parents: Frank Richerme and Sandra Torres</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
